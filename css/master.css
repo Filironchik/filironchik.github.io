@@ -1,0 +1,170 @@
+body {
+    font-size: 16px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: #201B2D;
+}
+
+p {
+    color: #201B2D;
+}
+
+div, p, a, ul, li, input, form, button, span, section {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+h1 span {
+    font-size: 59px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    background-color: #FFD429;
+    color: #2E2A1B;
+    width: 222px;
+    height: 56;
+    display: block;
+    padding: 16px 0;
+    text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background-color: #E3BE28;
+}
+
+.header {
+    background: -webkit-linear-gradient(135deg, rgb(78, 190, 254), rgb(55, 143, 217));
+background: -moz-linear-gradient(135deg, rgb(78, 190, 254), rgb(55, 143, 217));
+background: linear-gradient(135deg, rgb(78, 190, 254), rgb(55, 143, 217));
+
+    width: auto;
+    padding-top: 62px;
+}
+
+.offer {
+    width: 585px;
+    margin-top: 140px;
+    margin-bottom: 56px;
+    /* margin-right: 92px; */
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+h1 {
+    font-size: 37px;
+    color: #fff;
+}
+
+header p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+.title {
+    margin-bottom: 40px;
+}
+
+.desktop {
+    margin-top: 60px;
+    margin-bottom: 144px;
+}
+
+.skills {
+    display: flex;
+	justify-content: space-between;
+}
+
+.skill {
+    width: 300px;
+    margin-top: 70px;
+    margin-bottom: 122px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.section-intro {
+    text-align: center;
+}
+
+.center-img {
+    margin-left: 110px;
+}
+
+.form {
+    width: 343px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 58px; */
+    margin:-bottom: 102px;
+}
+
+input {
+    width: 343px;
+    height: 48px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    border: 1px solid #BBBBBB;
+    padding-left: 24px;
+}
+
+.btn-form {
+    width: 343px;
+    height: 48px;
+    border: 0px;
+
+}
+
+.section-form {
+    background-color: #ECF3F8;
+    padding-bottom: 102px;
+    padding-top: 98px;
+}
+
+.margin {
+    margin-top: 0px;
+}
+
+.footer {
+    background-color: #164D7A;
+    padding-top: 58px;
+    padding-bottom: 62px;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
