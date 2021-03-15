@@ -331,7 +331,13 @@ footer p {
         margin: 0 auto;
     }
     .btn-form{
-        width: 343px;
+        width: 300px;
+        margin: 0 auto;
+    }
+    input {
+        width: 300px;
+        margin: 12px auto;
+        display: block;
     }
 
 
