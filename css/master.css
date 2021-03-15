@@ -31,7 +31,7 @@ h1 span {
 
 h2 {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 0px;
     font-size: 30px;
 }
 
@@ -59,7 +59,6 @@ h2 {
 background: -moz-linear-gradient(135deg, rgb(78, 190, 254), rgb(55, 143, 217));
 background: linear-gradient(135deg, rgb(78, 190, 254), rgb(55, 143, 217));
 
-    width: auto;
     padding-top: 62px;
 }
 
@@ -95,6 +94,11 @@ header p{
     margin-bottom: 144px;
 }
 
+.section-skills{
+    padding-bottom: 122px;
+    padding-top: 100px;
+}
+
 .skills {
     display: flex;
 	justify-content: space-between;
@@ -103,7 +107,6 @@ header p{
 .skill {
     width: 300px;
     margin-top: 70px;
-    margin-bottom: 122px;
 }
 
 .section-title {
@@ -167,4 +170,169 @@ footer p {
     color: #fff;
     text-align: center;
     margin: 0;
+}
+
+/* адаптивность */
+
+@media screen and (max-width: 1200px) {
+    .container{
+        width: 960px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    h1 span {
+        font-size: 44px;
+    }
+    .intro {
+        font-size: 13px;
+    }
+    .desktop {
+        height: 676px;
+        margin: 0;
+    }
+    .header {
+        padding-top: 30px;
+    }
+    .footer {
+        padding-top: 29px;
+        padding-bottom: 31px;
+    }
+    .section-form {
+        padding-bottom: 90px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container{
+        width: 720px;
+    }
+    .desktop {
+    height: 500px;
+    margin-left: 50px;
+    }
+        .skill {
+    width: 200px;
+    }
+    .center-img {
+    margin-left: 70px;
+    }
+    .offer {
+    margin-top: 70px;
+    margin-bottom: 56px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 540px;
+    }
+    h1 {
+        font-size: 16px;
+    }
+    h1 span {
+        font-size: 30px;
+    }
+    .title {
+        margin-bottom: 20px;
+    }
+    .intro {
+        font-size: 12px;
+    }
+    .btn {
+        font-size: 12px;
+        width: 200px;
+        height: 45;
+        padding: 15px 0;
+    }
+    .desktop {
+        height: 300px;
+        margin-left: 10;
+        margin-top: 40px;
+    }
+    body {
+        font-size: 13px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .center-img {
+        margin-left: 55px;
+    }
+    .section-skills {
+        padding-bottom: 80px;
+        padding-top: 80px;
+    }
+    .section-form {
+        padding-bottom: 70px;
+        padding-top: 80px;
+    }
+    .btn-form {
+        width: 343px;
+        height: 48px;
+        border: 0px;
+
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container{
+        width: 90%;
+    }
+    .logo{
+        margin: auto 0;
+    }
+    .offer {
+        width: auto;
+        margin-top: 0;
+        margin-bottom: 80px;
+    }
+    .title {
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 20px;
+    }
+    .intro {
+        text-align: center;
+        margin-bottom: 30;
+    }
+    .desktop {
+        display: none;
+    }
+    .header {
+        padding-top: 15px;
+    }
+    .btn {
+        width: auto;
+        height: 45;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    h1 span {
+        font-size: 40px;
+    }
+    .intro {
+        font-size: 15px;
+    }
+    .skills {
+        flex-direction: column;
+    }
+    .section-skills {
+        padding-bottom: 40px;
+        padding-top: 50px;
+    }
+    .skill {
+        margin-top: 30px;
+        width: auto;
+    }
+    .center-img {
+        display: block;
+        margin: 0 auto;
+    }
+    .btn-form{
+        width: 343px;
+    }
+
+
 }
