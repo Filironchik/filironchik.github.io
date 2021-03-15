@@ -24,6 +24,9 @@ div, p, a, ul, li, input, form, button, span, section {
     margin: 0 auto;
 }
 
+.animate__animated {
+    opacity: 0;
+}
 
 h1 span {
     font-size: 59px;

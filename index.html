@@ -4,38 +4,42 @@
         <title>сайт верстальщика</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
         <link rel="stylesheet" href="css/master.css">
     </head>
     <body>
         <header id="header" class="header">
             <div class="container">
-                <img src="img/logo.png" alt="logo" class="logo">
+                <img src="img/logo.png" alt="logo" class="logo animate__animated animate__fadeInLeft">
                 <div class="wrapper">
-                    <div class="offer">
+                    <div class="offer animate__animated animate__fadeInLeft">
                         <h1 class="title">С помощью вёрстки<!-- <br> --> я создам жизнь, о которой<br><span>мечтаю!</span></h1>
                         <p class="intro">Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на 100%. Меня не остановить!</p>
                         <a href="#" class="btn">Двигаться к мечте!</a>
                     </div>
-                    <img src="img/img.png" alt="desktop" class="desktop">
+                    <img src="img/img.png" alt="desktop" class="desktop animate__animated animate__fadeInRight">
                 </div>
             </div>
         </header>
 
         <section id="section" class="section-skills">
             <div class="container">
-                <h2>Что меня ждет впереди</h2>
+                <h2 id="h2" class="animate__animated ">Что меня ждет впереди</h2>
                 <div class="skills">
-                    <div class="skill">
+                    <div class="skill skill1 animate__animated ">
                         <img src="img/icons-1.jpg" alt="icons-1" class="center-img">
                         <h3 class="section-title">Свободное время</h3>
                         <p class="section-intro">Мне нужно свободное время на семью и самое настоящее</p>
                     </div>
-                    <div class="skill">
+                    <div class="skill skill2 animate__animated ">
                         <img src="img/icons-2.jpg" alt="icons-2" class="center-img">
                         <h3 class="section-title">Яркие путешествия</h3>
                         <p class="section-intro">Работать откуда угодно - что может быть лучше?</p>
                     </div>
-                    <div class="skill">
+                    <div class="skill skill3 animate__animated ">
                         <img src="img/icons-3.jpg" alt="icons-3" class="center-img">
                         <h3 class="section-title">Создание ценности</h3>
                         <p class="section-intro">Нет ничего сильнее, чем жить не просто так, создавая ценность</p>
@@ -46,8 +50,8 @@
 
         <section id="section" class="section-form">
             <div class="container">
-                <h2 class="margin">Форма заказа билета в будущее</h2>
-                    <form action="#" class="form">
+                <h2 class="margin animate__animated ">Форма заказа билета в будущее</h2>
+                    <form action="#" class="form animate__animated">
                         <input type="text"  name="name" placeholder="Имя" required>
                         <input type="email"  name="email" placeholder="E-mail" required>
                         <input type="tel"  name="phone" placeholder="Телефон" required>
@@ -62,6 +66,9 @@
                 <p>© Все мои мечты защищены моим трудолюбием</p>
             </div>
         </footer>
+
+        <script src="Js/jquery.min.js"></script>
+        <script src="Js/main.js"></script>
 
     </body>
 </html>
