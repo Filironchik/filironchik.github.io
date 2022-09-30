@@ -1,0 +1,23 @@
+input {
+    width: 120px;
+    height: 20px;
+}
+
+input{
+    display:inline-block;
+    margin: 0;
+}
+
+.divInlain{
+    display:inline-block;
+    margin-left: 10px;
+}
+
+.mar{
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.mar2{
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
