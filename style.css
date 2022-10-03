@@ -8,6 +8,11 @@ input {
     border-width: 1px;
 }
 
+.pp{
+    font-size: 15px;
+    margin-left: 25px;
+}
+
 p{
     font-family: 'Ubuntu', sans-serif;
 }
@@ -26,7 +31,10 @@ p{
     margin-left: 25px;
 }
 
-
+span{
+    font-weight: bold;
+    font-size: 18px;
+}
 .button{
     width: 170px;
     height: 30px;
