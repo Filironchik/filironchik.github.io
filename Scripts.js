@@ -1,4 +1,5 @@
 let aMinutes1, aWaths1, bMinutes1, bWaths1, aMinutes2, aWaths2, bMinutes2, bWaths2, N, w, wA, wB
+let results = []
 
 butt.onclick = function(){
     aMinutes1 = Number(document.getElementById('aMinutes1').value)
@@ -62,4 +63,13 @@ function W(){
   w = Math.sqrt(w)
   console.log(w.toFixed(2) + ' Omega')
   result.innerHTML = w.toFixed(2)
+  res(w.toFixed(2))
+}
+
+function res(result){
+  results.unshift(result)
+  for(let i = 0; i < result.length; i++){
+    
+  }
+  result__div.after(result, document.createElement('hr'))
 }

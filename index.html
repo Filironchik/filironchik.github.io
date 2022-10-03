@@ -10,23 +10,27 @@
 <body>
     <form name="W">
         <div class="divInlain">
-            <div class="mar"><input type="number" id="aWaths1"><p class="divInlain">Алфа1 часы</p></div>
+            <div class="mar"><input type="number" id="aWaths1"><p class="divInlain">Альфа1 часы</p></div>
+            <div class="mar"><input type="number" id="aMinutes1"><p class="divInlain">Альфа1 минуты</p></div>
             <div class="mar"><input type="number" id="aWaths2"><p class="divInlain">Альфа2 часы</p></div>
-            <div class="mar"><input type="number" id="bWaths1"><p class="divInlain">Бета1 часы</p></div>
-            <div class="mar"><input type="number" id="bWaths2"><p class="divInlain">Бета2 Часы</p></div>
+            <div class="mar"><input type="number" id="aMinutes2"><p class="divInlain">Альфа2 минуты</p></div>
         </div>
         <div class="divInlain">
-            <div class="mar"><input type="number" id="aMinutes1"><p class="divInlain">Альфа1 минуты</p></div>
-            <div class="mar"><input type="number" id="aMinutes2"><p class="divInlain">Альфа2 минуты</p></div>
-            <div class="mar"><input type="number" id="bMinutes1"><p class="divInlain">Бета1 минуты</p></div>
-            <div class="mar"><input type="number" id="bMinutes2"><p class="divInlain">Бета2 минуты</p></div>
+            <div class="mar"><input type="number" id="bWaths1"><p class="divInlain">Дельта1 часы</p></div>
+            <div class="mar"><input type="number" id="bMinutes1"><p class="divInlain">Дельта1 минуты</p></div>
+            <div class="mar"><input type="number" id="bWaths2"><p class="divInlain">Дельта2 Часы</p></div>
+            <div class="mar"><input type="number" id="bMinutes2"><p class="divInlain">Дельта2 минуты</p></div>
         </div>
 
         <div class="mar2"><input type="number" id="N" onchange="N = value"><p class="divInlain">Кол-во дней</p></div>
 
         <div class="mar2"><input type="button" id="butt" value="Подсчитать"><p class="mar2, divInlain">Омега = <span id="result"></span></p></div>
     </form>
+    <div class="divInlain">
+        <p>Прошлые результаты:</p>
+        <div id="result__div"></div>
 
+    </div>
     
 
     <script src="Scripts.js"></script>
